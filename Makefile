@@ -2,4 +2,4 @@
 default:
 	bison -d calc.ypp
 	flex calc.l
-	g++ -std=c++11 -g -o mycalc -fpermissive calc.tab.cpp calc.yy.c
+	g++ -std=c++11 -g -o mycalc -fpermissive calc.tab.cpp lex.yy.c
