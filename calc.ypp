@@ -28,6 +28,7 @@ map<string, int> global_variables; //global variables defined by the user
 %type  <val> exp term sfactor factor res
 
 //-- GRAMMAR RULES ---------------------------------------
+//This uses BNF, right-hand tokens are args in the code, denoted $1, $2, ... $n
 %%
 run: res run | res    /* forces bison to process many stmts */
 
