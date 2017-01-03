@@ -2,8 +2,9 @@
  * calc.l
  ********************************************************/
 %{
-#include "ex1.tab.hpp"
+#include "calc.tab.hpp"
 #include <iostream>
+#include <cstring>
 using namespace std;
 //char *cppnewguy = new char[200];
 %}
